@@ -1,4 +1,41 @@
 
+.list {
+    list-style: none;
+}
+.section.cta {
+    background-color: #F7941E;
+}
+.title-cta {
+    color: #000000;
+    font-size: 32px;
+    line-height: 1.41;
+}
+.button-cta {
+    font-size: 18px;
+    line-height: 1.22;
+    font-family: inherit;
+    cursor: pointer;
+    
+    min-width: 200px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button-cta.first{
+    color: #FFFFFF;
+    background: #231F20;
+    padding: 18px 24px 10px 25px;
+}
+.button-cta.second {
+    color: #000000;
+    background: transparent;
+    border: 1px solid #000000;
+    padding: 17px 16px 8px 17px;
+}
+
+
 /* HERO SECTION START */
 .link {
   text-decoration: none;

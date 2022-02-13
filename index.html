@@ -5,32 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-        <header>
+
+        <header class="header">
+          <div class="container header-container">
           <nav>
-            <a href="/">logo></a>        
+            <a class="logo" href="/">logo></a>        
             <!-- navigation site -->
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Services</a></li>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#How we work">About Us</a></li>
+              <li><a href="#Gifts for all Occasions">Services</a></li>
               <li><a href="">Blogs</a></li>
             </ul>            
           </nav>
           <!--тому що потрібно  -->
-          <p style="text-align: center"><button>Gift Finder</button></p>          
+          <button type="button">Gift Finder</button>
+          </div>
         </header>
+
+
     <main>
       <!-- hero section -->
       <section id="hero">
-        <h1>Find a gift for your wife or girlfriend</h1>
-        <p>
+        <h1 class="title">Find a gift for your wife or girlfriend</h1>
+        <p class="description">
           Struggling to find a gift for your wife or girlfriend? No problem!
         </p>
-        <a href="">Find gift now</a>
+        <a class="link" href="">Find gift now</a>
         <img
           src="./images/Background.jpg"
           alt="A happy couple"
